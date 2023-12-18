@@ -2,8 +2,6 @@
 import {useState, useEffect} from 'react';
 
 function App() {
-  const variablesX = [];
-  const variablesY = [];
   const [degree, setDegree] = useState();
   const [x0, setX0] = useState();
   const [x1, setX1] = useState();
